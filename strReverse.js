@@ -1,5 +1,3 @@
-# jsDataStructure
-JS之数据结构
 ## 557. 反转字符串中的单词 III
 给定一个字符串，你需要反转字符串中每个单词的字符顺序，同时仍保留空格和单词的初始顺序。
 
@@ -30,8 +28,8 @@ JS之数据结构
 	let str = "Let's take LeetCode contest"
   	str.match(/[\S]+/g).map(item => {
     		return item.split('').reverse().join('')
- 	 }).join(' ')
+ 	 }).join(' ') 
 
-	console.log(str)
+	console.log(str)		
 ```
 
